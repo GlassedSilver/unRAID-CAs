@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>happypandax</Name>
+  <Date>2020-06-01</Date>
+  <Repository>twiddly/happypandax:latest</Repository>
+  <Registry>https://hub.docker.com/r/twiddly/happypandax/</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/happypandax/happypandax/</Project>
+  <Overview>A cross-platform server and client application for managing and reading manga and doujinshi.&#xD;
+&#xD;
+This application itself is released in alpha-stage by the author themselves and this CA template is in beta.&#xD;
+&#xD;
+I would appreciate if you could help me test this application. There are some known issues, e.g. downloading from Exhentai is limited to being logged in and having credits available.</Overview>
+  <Category>Downloaders: MediaServer:Books Status:Beta</Category>
+  <WebUI>http://[IP]:[PORT:7008]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://user-images.githubusercontent.com/11841002/32983531-4ac3fc6c-cc96-11e7-8ba4-c12d9ee0b8a8.png</Icon>
+  <DonateText>Support the application author on Patreon!</DonateText>
+  <DonateImg>https://c5.patreon.com/external/logo/become_a_patron_button.png</DonateImg>
+  <DonateLink>https://www.patreon.com/twiddly</DonateLink>
+  <Description>A cross-platform server and client application for managing and reading manga and doujinshi.</Description>
+  <Config Name="HPX Port" Target="7007" Default="7007" Mode="tcp" Description="API Port for alt. Front-ends like HappyPandaX Desktop." Type="Port" Display="always" Required="true" Mask="false">7007</Config>
+  <Config Name="WebUI Port" Target="7008" Default="7008" Mode="tcp" Description="WebUI" Type="Port" Display="always" Required="true" Mask="false">7008</Config>
+  <Config Name="Torrent Port" Target="7006" Default="7006" Mode="tcp" Description="HPX_TORRENTPORT" Type="Port" Display="always" Required="true" Mask="false">7006</Config>
+  <Config Name="AppData Path" Target="/data" Default="/mnt/user/appdata/happypandax/" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Content Path" Target="/content" Default="" Mode="rw" Description="Container Path: /content" Type="Path" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="RUN_IN_BACKGROUND" Target="RUN_IN_BACKGROUND" Default="true" Mode="" Description="Container Variable: RUN_IN_BACKGROUND" Type="Variable" Display="advanced-hide" Required="true" Mask="false">true</Config>
+  <Config Name="AUTOSTART_ON_BOOT" Target="AUTOSTART_ON_BOOT" Default="always" Mode="" Description="Container Variable: AUTOSTART_ON_BOOT" Type="Variable" Display="advanced-hide" Required="true" Mask="false">always</Config>
+</Container>
