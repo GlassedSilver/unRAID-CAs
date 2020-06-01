@@ -17,7 +17,7 @@ I would appreciate if you could help me test this application. There are some kn
   <Category>Downloaders: MediaServer:Books Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:7008]/</WebUI>
   <TemplateURL>https://github.com/GlassedSilver/unRAID-CAs/blob/master/happypandax/happypandax.xml</TemplateURL>
-  <Icon>https://user-images.githubusercontent.com/11841002/32983531-4ac3fc6c-cc96-11e7-8ba4-c12d9ee0b8a8.png</Icon>
+  <Icon>https://github.com/GlassedSilver/unRAID-CAs/tree/master/happypandax/hpx_logo.png</Icon>
   <DonateText>Support the application author on Patreon!</DonateText>
   <DonateImg>https://c5.patreon.com/external/logo/become_a_patron_button.png</DonateImg>
   <DonateLink>https://www.patreon.com/twiddly</DonateLink>
