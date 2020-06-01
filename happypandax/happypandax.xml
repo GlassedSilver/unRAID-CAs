@@ -9,11 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/93148-happypandax-support-thread/</Support>
   <Project>https://github.com/happypandax/happypandax/</Project>
-  <Overview>A cross-platform server and client application for managing and reading manga and doujinshi.&#xD;
-&#xD;
-This application itself is released in alpha-stage by the author themselves and this CA template is in beta.&#xD;
-&#xD;
-I would appreciate if you could help me test this application. There are some known issues, e.g. downloading from Exhentai is limited to being logged in and having credits available.</Overview>
+  <Overview>A cross-platform server and client application for managing and reading manga and doujinshi.</Overview>
   <Category>Downloaders: MediaServer:Books Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:7008]/</WebUI>
   <TemplateURL>https://github.com/GlassedSilver/unRAID-CAs/blob/master/happypandax/happypandax.xml</TemplateURL>
@@ -21,7 +17,11 @@ I would appreciate if you could help me test this application. There are some kn
   <DonateText>Support the application author on Patreon!</DonateText>
   <DonateImg>https://c5.patreon.com/external/logo/become_a_patron_button.png</DonateImg>
   <DonateLink>https://www.patreon.com/twiddly</DonateLink>
-  <Description>A cross-platform server and client application for managing and reading manga and doujinshi.</Description>
+  <Description>A cross-platform server and client application for managing and reading manga and doujinshi.&#xD;
+&#xD;
+This application itself is released in alpha-stage by the author themselves and this CA template is in beta.&#xD;
+&#xD;
+I would appreciate if you could help me test this application. There are some known issues, e.g. downloading from Exhentai is limited to being logged in and having credits available.</Description>
   <Config Name="HPX Port" Target="7007" Default="7007" Mode="tcp" Description="API Port for alt. Front-ends like HappyPandaX Desktop." Type="Port" Display="always" Required="true" Mask="false">7007</Config>
   <Config Name="WebUI Port" Target="7008" Default="7008" Mode="tcp" Description="WebUI" Type="Port" Display="always" Required="true" Mask="false">7008</Config>
   <Config Name="Torrent Port" Target="7006" Default="7006" Mode="tcp" Description="HPX_TORRENTPORT" Type="Port" Display="always" Required="true" Mask="false">7006</Config>
