@@ -7,7 +7,7 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/93148-happypandax-support-thread/</Support>
   <Project>https://github.com/happypandax/happypandax/</Project>
   <Overview>A cross-platform server and client application for managing and reading manga and doujinshi.&#xD;
 &#xD;
@@ -17,7 +17,7 @@ I would appreciate if you could help me test this application. There are some kn
   <Category>Downloaders: MediaServer:Books Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:7008]/</WebUI>
   <TemplateURL>https://github.com/GlassedSilver/unRAID-CAs/blob/master/happypandax/happypandax.xml</TemplateURL>
-  <Icon>https://github.com/GlassedSilver/unRAID-CAs/tree/master/happypandax/hpx_logo.png</Icon>
+  <Icon>https://github.com/GlassedSilver/unRAID-CAs/raw/master/happypandax/hpx_logo.png</Icon>
   <DonateText>Support the application author on Patreon!</DonateText>
   <DonateImg>https://c5.patreon.com/external/logo/become_a_patron_button.png</DonateImg>
   <DonateLink>https://www.patreon.com/twiddly</DonateLink>
