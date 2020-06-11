@@ -13,4 +13,5 @@ support in the table below.
 
 ## HappyPandaX
 CA Support thread: https://forums.unraid.net/topic/93148-happypandax-support-thread/
+
 Bug tracker: https://github.com/happypandax/happypandax/issues
