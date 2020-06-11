@@ -22,5 +22,5 @@ official support in the table below.
 
 ## Support
 | Community Application   |   unRAID Support Thread   |  Official Link (github, ...) |
-|-------------------------|--------------------------:|-----------------------------:|
-| HappyPandaX             | [Click](https://forums.unraid.net/topic/93148-happypandax-support-thread/) | [Bug Tracker]
+|-------------------------|:--------------------------|:-----------------------------|
+| HappyPandaX             | [Click](https://forums.unraid.net/topic/93148-happypandax-support-thread/) | [Bug Tracker](https://github.com/happypandax/happypandax/issues) |
