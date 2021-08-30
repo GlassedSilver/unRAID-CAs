@@ -1,1 +1,42 @@
-
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Directus</Name>
+  <Date>2021-08-30</Date>
+  <Repository>directus/directus:latest</Repository>
+  <Registry>https://hub.docker.com/r/directus/directus/</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/directus/directus/</Support>
+  <Project/>https://github.com/directus/directus</Project>
+  <Overview>"An Instant App &amp;amp; API for your SQL Database.</Overview>
+  <Category>Tools:Utilities</Category>
+  <WebUI>http://[IP]:[PORT:8055]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/GlassedSilver/unRAID-CAs/master/directus/directus.xml</TemplateURL>
+  <Icon>https://res.cloudinary.com/practicaldev/image/fetch/s--7NfbKYno--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/3630/0796d46c-ac78-452e-be66-c778f03554e3.png</Icon>
+  <Description>"An Instant App &amp;amp; API for your SQL Database.&#xD;
+Directus wraps your new or existing SQL database with a realtime GraphQL+REST API for developers, and an intuitive admin app for non-technical users."&#xD;
+(description from the application's author)&#xD;
+&#xD;
+It can be a headless CMS, your table viewer, UI/app builder for webapps and more to visualize, store and manage your SQL-stored data.&#xD;
+It's very a wrapper, doesn't mess with your data and doesn't lock you into a proprietary solution.&#xD;
+It's an interface, app, anything, but the backend can be detached at any time.&#xD;
+It lends itself very well to home users as well as advanced users and can handle file uploads and downloads.&#xD;
+</Description>
+  <Config Name="WebUI" Target="8055" Default="8055" Mode="tcp" Description="Container Port: 8055" Type="Port" Display="always" Required="true" Mask="false">8055</Config>
+  <Config Name="App Data/Uploads" Target="/directus/uploads/" Default="/mnt/user/appdata/directus/uploads/" Mode="rw" Description="Container Path: /directus/uploads/&#13;&#10;&#13;&#10;This is where your files get stored you upload to and manage within Directus" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/directus/uploads//</Config>
+  <Config Name="App Data/Extensions" Target="/directus/extensions/" Default="/mnt/user/appdata/directus/extensions/" Mode="rw" Description="Container Path: /directus/extensions/" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/directus/extensions/</Config>
+  <Config Name="App Data/Database (SQLite)" Target="/directus/database/" Default="/mnt/user/appdata/directus/database/" Mode="rw" Description="Only needed for SQLite environments" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/directus/database/</Config>
+  <Config Name="Database" Target="DB_CLIENT" Default="" Mode="" Description="What database client to use. One of pg or postgres, mysql, oracledb, mssql, or sqlite3." Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Database Host" Target="DB_HOST" Default="" Mode="" Description="Database host. Required when using pg, mysql, oracledb, or mssql." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Database Port" Target="DB_PORT" Default="" Mode="" Description="Database port. Required when using pg, mysql, oracledb, or mssql." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Database Name" Target="DB_DATABASE" Default="" Mode="" Description="Database name. Required when using pg, mysql, oracledb, or mssql." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Database User" Target="DB_USER" Default="" Mode="" Description="Database user. Required when using pg, mysql, oracledb, or mssql." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Database Password" Target="DB_PASSWORD" Default="" Mode="" Description="Database user's password. Required when using pg, mysql, oracledb, or mssql." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="KEY" Target="KEY" Default="Unique identifier for the project." Mode="" Description="Container Variable: KEY" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="SECRET" Target="SECRET" Default="" Mode="" Description="Secret string for the project." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Database Filename" Target="DB_FILENAME" Default="" Mode="" Description="Where to read/write the SQLite database. Required when using sqlite3." Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Postgres Connection String" Target="DB_CONNECTION_STRING" Default="" Mode="" Description="When using pg, you can submit a connection string instead of individual properties. Using this will ignore any of the other connection settings." Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
+</Container>
