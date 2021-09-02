@@ -41,5 +41,5 @@ ___
 ## Support
 | Community Application   |   unRAID Support Thread   |  Official Link (github, ...) |
 |-------------------------|:--------------------------|:-----------------------------|
-| Directus                | WIP                       | [Bug Tracker](https://github.com/directus/directus/issues) |
+| Directus                | [Click](https://forums.unraid.net/topic/113109-support-glassed-silver-directus/) | [Bug Tracker](https://github.com/directus/directus/issues) |
 | HappyPandaX             | [Click](https://forums.unraid.net/topic/93148-happypandax-support-thread/) | [Bug Tracker](https://github.com/happypandax/happypandax/issues) |
