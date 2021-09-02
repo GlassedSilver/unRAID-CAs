@@ -7,7 +7,7 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Supporthttps://forums.unraid.net/topic/113109-support-glassed-silver-directus/</Support>
+  <Support>https://forums.unraid.net/topic/113109-support-glassed-silver-directus/</Support>
   <Project/>https://github.com/directus/directus</Project>
   <Overview>"An Instant App &amp;amp; API for your SQL Database.</Overview>
   <Category>Tools:Utilities</Category>
