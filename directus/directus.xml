@@ -8,8 +8,8 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/113109-support-glassed-silver-directus/</Support>
-  <Project/>https://github.com/directus/directus</Project>
-  <Overview>"An Instant App &amp;amp; API for your SQL Database.</Overview>
+  <Project>https://github.com/directus/directus</Project>
+  <Overview>An Instant App &amp;amp; API for your SQL Database.</Overview>
   <Category>Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:8055]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/GlassedSilver/unRAID-CAs/master/directus/directus.xml</TemplateURL>
