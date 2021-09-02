@@ -13,7 +13,7 @@
   <Category>Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:8055]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/GlassedSilver/unRAID-CAs/master/directus/directus.xml</TemplateURL>
-  <Icon>https://res.cloudinary.com/practicaldev/image/fetch/s--7NfbKYno--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/3630/0796d46c-ac78-452e-be66-c778f03554e3.png</Icon>
+  <Icon>https://github.com/GlassedSilver/unRAID-CAs/raw/master/directus/directus_logo.png</Icon>
   <Description>"An Instant App &amp;amp; API for your SQL Database.&#xD;
 Directus wraps your new or existing SQL database with a realtime GraphQL+REST API for developers, and an intuitive admin app for non-technical users."&#xD;
 (description from the application's author)&#xD;
