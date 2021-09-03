@@ -22,6 +22,10 @@ It can be a headless CMS, your table viewer, UI/app builder for webapps and more
 It's very a wrapper, doesn't mess with your data and doesn't lock you into a proprietary solution.&#xD;
 It's an interface, app, anything, but the backend can be detached at any time.&#xD;
 It lends itself very well to home users as well as advanced users and can handle file uploads and downloads.&#xD;
+&#xD;
+Default admin credentials:&#xD;
+ADMIN_EMAIL="admin@example.com"&#xD;
+ADMIN_PASSWORD="d1r3ctu5"&#xD;
 </Description>
   <Config Name="WebUI" Target="8055" Default="8055" Mode="tcp" Description="Container Port: 8055" Type="Port" Display="always" Required="true" Mask="false">8055</Config>
   <Config Name="App Data/Uploads" Target="/directus/uploads/" Default="/mnt/user/appdata/directus/uploads/" Mode="rw" Description="Container Path: /directus/uploads/&#13;&#10;&#13;&#10;This is where your files get stored you upload to and manage within Directus" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/directus/uploads//</Config>
