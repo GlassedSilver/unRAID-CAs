@@ -22,15 +22,23 @@ Directus wraps your new or existing SQL database with a realtime GraphQL+REST AP
 &#xD;
 Most users will probably value the user-friendly and yet mighty front-end aspect to SQL databases.&#xD;
 &#xD;
-Directus can be a headless CMS, your table viewer, UI/app builder for webapps and more to visualize, store and manage your SQL-stored data.&#xD;
-It's very a wrapper, doesn't mess with your data and doesn't lock you into a proprietary solution.&#xD;
-It's an interface and app, but the backend can be detached at any time.&#xD;
-It lends itself very well to home users as well as advanced users and can handle file uploads and downloads.&#xD;
+Directus can be a headless CMS, your table viewer, UI/app builder for web apps and more to visualize and manage your SQL-stored data.&#xD;
+It's a wrapper, doesn't mess with your data and doesn't lock you into a proprietary solution.&#xD;
+Directus functions as interface and app, but the backend can be detached at any time.&#xD;
+It lends itself very well to home users as well as advanced users and can handle file up- and downloads.&#xD;
+&#xD;
+*******&#xD;
 &#xD;
 Default admin credentials:&#xD;
+&#xD;
 ADMIN_EMAIL="admin@example.com"&#xD;
-ADMIN_PASSWORD="d1r3ctu5"</Description>
+&#xD;
+ADMIN_PASSWORD will be printed in the log shortly after first launch. If you missed it and cleared the log wipe your config and try again.&#xD;
+&#xD;
+You can also (before the first launch) pass credentials through the template fields, however I'd advise to clear them afterwards and to never stay on the default password. Remember to follow good password hygiene rules. :)</Description>
   <Config Name="WebUI" Target="8055" Default="8055" Mode="tcp" Description="Container Port: 8055" Type="Port" Display="always" Required="true" Mask="false">8055</Config>
+  <Config Name="Admin Email" Target="ADMIN_EMAIL" Default="admin@example.com" Mode="" Description="The Direcuts Admin User Account. Feel free to change this to your email address." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Admin Password" Target="ADMIN_PASSWORD" Default="" Mode="" Description="The Direcuts Admin User Account. Feel free to pass your desired password here,&#13;&#10;otherwise a default password will be generated on first launch. (check logs!)" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="App Data/Uploads" Target="/directus/uploads/" Default="/mnt/user/appdata/directus/uploads/" Mode="rw" Description="Container Path: /directus/uploads/&#13;&#10;&#13;&#10;This is where your files get stored you upload to and manage within Directus" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/directus/uploads/</Config>
   <Config Name="App Data/Extensions" Target="/directus/extensions/" Default="/mnt/user/appdata/directus/extensions/" Mode="rw" Description="Container Path: /directus/extensions/" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/directus/extensions/</Config>
   <Config Name="App Data/Database (SQLite)" Target="/directus/database/" Default="/mnt/user/appdata/directus/database/" Mode="rw" Description="Only needed for SQLite environments" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/directus/database/</Config>
