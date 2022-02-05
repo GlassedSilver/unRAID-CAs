@@ -11,7 +11,6 @@
   <Project>https://github.com/directus/directus</Project>
   <Overview>An Instant App &amp;amp; API for your SQL Database.&#xD;
 Directus wraps your new or existing SQL database with a realtime GraphQL+REST API for developers, and an intuitive admin app for non-technical users.</Overview>
-  <Category/>
   <Category>Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:8055]/admin/login</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/GlassedSilver/unRAID-CAs/master/directus/directus.xml</TemplateURL>
