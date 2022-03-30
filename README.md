@@ -14,7 +14,7 @@ go to the official bug tracker/other support outlet. I will link both my thread 
 official #Support in the table below.
 
 
-![Directus icon](/directus/directus_logo.png-32x32?raw=true)
+![Directus icon](/directus/directus_logo-32x32.png?raw=true)
 Directus
 --------
 
@@ -34,7 +34,7 @@ Check out this short and concice [overview.](https://www.youtube.com/watch?v=xDs
 [Docs](https://docs.directus.io/)
 
 
-![FMD2-wine icon](/FMD2-wine/fmd2_logo.png-32x32?raw=true)
+![FMD2-wine icon](/FMD2-wine/fmd2_logo-32x32.png?raw=true)
 FMD2-wine (docker-fmd2)
 -----------------------
 
@@ -51,7 +51,7 @@ You're responsible for your own actions, so check whether you can download anyth
 [FMD2's GitHub](https://github.com/dazedcat19/FMD2)
 
 
-![HappyPandaX icon](/happypandax/hpx_logo.png-37x32?raw=true)
+![HappyPandaX icon](/happypandax/hpx_logo-37x32.png?raw=true)
 HappyPandaX
 -----------
 
