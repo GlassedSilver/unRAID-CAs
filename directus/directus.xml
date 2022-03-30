@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Directus</Name>
-  <Date>2021-08-30</Date>
+  <Date>2022-03-30</Date>
   <Repository>directus/directus:latest</Repository>
   <Registry>https://hub.docker.com/r/directus/directus/</Registry>
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
+  <ExtraParams>--restart unless-stopped</ExtraParams>
   <Support>https://forums.unraid.net/topic/113109-support-glassed-silver-directus/</Support>
   <Project>https://github.com/directus/directus</Project>
   <Overview>An Instant App &amp;amp; API for your SQL Database.&#xD;
@@ -53,4 +54,6 @@ You can also (before the first launch) pass credentials through the template fie
   <Config Name="Postgres Connection String" Target="DB_CONNECTION_STRING" Default="" Mode="" Description="When using pg, you can submit a connection string instead of individual properties. Using this will ignore any of the other connection settings." Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
+  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced" Required="true" Mask="false">002</Config>
+  <Config Name="TZ" Target="TZ" Default="" Mode="" Description="Set your Time Zone here (e.g. Europe/Berlin)" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 </Container>

@@ -29,4 +29,8 @@ I would appreciate if you could help me test this application. There are some kn
   <Config Name="Content Path" Target="/content" Default="" Mode="rw" Description="Container Path: /content" Type="Path" Display="always" Required="true" Mask="false"></Config>
   <Config Name="RUN_IN_BACKGROUND" Target="RUN_IN_BACKGROUND" Default="true" Mode="" Description="Container Variable: RUN_IN_BACKGROUND" Type="Variable" Display="advanced-hide" Required="true" Mask="false">true</Config>
   <Config Name="AUTOSTART_ON_BOOT" Target="AUTOSTART_ON_BOOT" Default="always" Mode="" Description="Container Variable: AUTOSTART_ON_BOOT" Type="Variable" Display="advanced-hide" Required="true" Mask="false">always</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
+  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced" Required="true" Mask="false">002</Config>
+  <Config Name="TZ" Target="TZ" Default="" Mode="" Description="Set your Time Zone here (e.g. Europe/Berlin)" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 </Container>
