@@ -3,7 +3,7 @@
   <Name>FMD2-wine</Name>
   <Date>2022-03-30</Date>
   <Repository>banhcanh/docker-fmd2:latest</Repository>
-  <Registry>https://hub.docker.com/r/banhcanh/docker-fmd2//</Registry>
+  <Registry>https://hub.docker.com/r/banhcanh/docker-fmd2/</Registry>
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -30,9 +30,9 @@
 - Make use of Linuxserver alpine base image</Description>
   <Config Name="WebUI" Target="6080" Default="6080" Mode="tcp" Description="Container Port: 6080" Type="Port" Display="always" Required="true" Mask="false">6080</Config>
   <Config Name="Download Directory" Target="/downloads" Default="" Mode="rw" Description="Container Path: /downloads" Type="Path" Display="always" Required="true" Mask="false"></Config>
-  <Config Name="App LUA Modules Path" Target="/app/FMD2/lua" Default="/mnt/user/appdata/fmd2-wine/lua" Mode="rw" Description="Container Path: /app/FMD2/lua" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/FMD2/userdata</Config>
-  <Config Name="App FMD2 Internal DB" Target="/app/FMD2/data" Default="/mnt/user/appdata/fmd2-wine/data" Mode="rw" Description="Container Path: /app/FMD2/data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/FMD2/userdata</Config>
-  <Config Name="App Wine Config" Target="/config/.wine" Default="/mnt/user/appdata/fmd2-wine/wine" Mode="rw" Description="Container Path: /config/.wine" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/FMD2/userdata</Config>
+  <Config Name="App LUA Modules Path" Target="/app/FMD2/lua" Default="/mnt/user/appdata/fmd2-wine/lua" Mode="rw" Description="Container Path: /app/FMD2/lua" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/FMD2/lua</Config>
+  <Config Name="App FMD2 Internal DB" Target="/app/FMD2/data" Default="/mnt/user/appdata/fmd2-wine/data" Mode="rw" Description="Container Path: /app/FMD2/data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/FMD2/data</Config>
+  <Config Name="App Wine Config" Target="/config/.wine" Default="/mnt/user/appdata/fmd2-wine/wine" Mode="rw" Description="Container Path: /config/.wine" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/FMD2/wine</Config>
   <Config Name="App userdata" Target="/app/FMD2/userdata" Default="/mnt/user/appdata/fmd2-wine/userdata" Mode="rw" Description="Container Path: /app/FMD2/userdata" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/FMD2/userdata</Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
