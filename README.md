@@ -69,6 +69,6 @@ Support
 
 | Community Application   |   unRAID Support Thread   |  Official Link (github, ...) |
 |-------------------------|:--------------------------|:-----------------------------|
-| #Directus               | [Click](https://forums.unraid.net/topic/113109-support-glassed-silver-directus/) | [Bug Tracker](https://github.com/directus/directus/issues) |
-| #FMD2-wine (docker-fmd2)| [Click](https://forums.unraid.net/topic/121828-fmd2-wine-docker-fmd2-support-thread/) | [Bug Tracker (for container)](https://github.com/Banh-Canh/docker-FMD2) |
+| [Directus](#directus)   | [Click](https://forums.unraid.net/topic/113109-support-glassed-silver-directus/) | [Bug Tracker](https://github.com/directus/directus/issues) |
+| FMD2-wine (docker-fmd2)| [Click](https://forums.unraid.net/topic/121828-fmd2-wine-docker-fmd2-support-thread/) | [Bug Tracker (for container)](https://github.com/Banh-Canh/docker-FMD2) |
 | #HappyPandaX            | [Click](https://forums.unraid.net/topic/93148-happypandax-support-thread/) | [Bug Tracker](https://github.com/happypandax/happypandax/issues) |
