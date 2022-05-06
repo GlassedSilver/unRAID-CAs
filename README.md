@@ -1,5 +1,3 @@
-# note to self: apps that need support link added in README and template: FMD2, manga-tagger
-
 # unRAID-CAs
 unRAID Community Applications I created because I didn't find them.<br>
 I create these for personal use and share them for anyone else to enjoy.
